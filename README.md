@@ -1,34 +1,68 @@
 # SmartCCTV
 
-Run Main.py 
+## How to Run
 
-# Requirements - <br>
-Opencv - pip install opencv-python <br>
-NumPy - pip install numpy <br>
-Sklearn - pip install scikit-learn <br>
-Tkinter - pip install tkinter <br>
-Pillow - pip install pillow <br>
-Face_recognition - Install cmake, visual studio, dlib, pip install Face_recognition. (refer online how to install face-recognition module for better understanding).
+Run the following command to start the application:
 
+```sh
+python Main.py
+```
 
-3 Yolov3 Algorithm files (RTD) <br>
-1 - coco.names (available in the repository) <br>
-2 - yolov3.cgf (available in the repository) <br>
-3 - yolov3.weights (Link Below) <br>
-link to download yolov3.weights - https://pjreddie.com/media/files/yolov3.weights 
+---
 
+## Requirements
 
-### Contact
+Ensure you have the following dependencies installed before running the project:
 
-* Contact me anywhere, just visit [My Portfolio](https://dishantisrani.github.io/Dishant-Portfolio/).
+### Python Libraries
 
-### License
+Install the required libraries using pip:
 
-* This project is licensed under MIT License, See [LICENSE](/LICENSE) for more information.
+```sh
+pip install opencv-python numpy scikit-learn tkinter pillow
+```
 
-### Code of Conduct 
+### Face Recognition Module
 
-* To contribute to this repository check here, see [CODE OF CONDUCT](/CODE_OF_CONDUCT.md).
+To install `face_recognition`, follow these steps:
 
-### Author
-* @Author : [Dishant Israni](https://github.com/DishantIsrani/)
+1. Install **CMake**
+2. Install **Visual Studio**
+3. Install **dlib**
+4. Run:
+   ```sh
+   pip install face_recognition
+   ```
+
+*(Refer to online documentation for detailed installation instructions based on your system.)*
+
+---
+
+## Yolov3 Algorithm Files (RTD)
+
+Ensure you have the following three files:
+
+1. **coco.names** *(Available in the repository)*
+2. **yolov3.cfg** *(Available in the repository)*
+3. **yolov3.weights** *(Download from the link below)*
+
+📥 [Download yolov3.weights](https://pjreddie.com/media/files/yolov3.weights)
+
+---
+
+## Contact
+
+For any queries, feel free to reach out. Visit my portfolio:\
+
+---
+
+## License
+
+This project is licensed under the **MIT License**. See [LICENSE](/LICENSE) for more details.
+
+---
+
+## Author
+
+👩‍💻 **Author**: [Shruti Gandhi]
+
